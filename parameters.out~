@@ -1,0 +1,13 @@
+average root mean square deviation     0.2906123545E-01
+average relative deviation    -0.8611002526E-04  %
+maximim relative deviation     0.1242967758E-01  %
+average absolut deviation    0.4724105410E-10
+maximum absolut deviation    0.3828092102E-02
+a 0 0 0    0.3042115250E+02
+a 0 0 1    0.3983899628E+00
+a 0 1 0    0.3134887957E-04
+a 0 1 1    0.1135934920E-04
+a 1 0 0    0.1081506158E+00
+a 1 0 1    0.1515964331E-02
+a 1 1 0   -0.3985463362E-04
+a 1 1 1   -0.9552652047E-05

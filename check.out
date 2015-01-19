@@ -1,4 +1,4 @@
-P_val 	T_val 	x_val 	y_val 	y_calc	deviation 	 abs_dev 
+P_val 	T_val 	x_val 	y_val 	y_calc	absolute_deviation 	relative_deviation 
 0.1200E+01	0.2000E+03	0.1000E+00	0.3064E+02	0.3059E+02	0.5064E-01	0.1653E-02
 0.1200E+01	0.2000E+03	0.2000E+00	0.3065E+02	0.3063E+02	0.2662E-01	0.8685E-03
 0.1200E+01	0.2000E+03	0.3000E+00	0.3068E+02	0.3067E+02	0.9306E-02	0.3033E-03
