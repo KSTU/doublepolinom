@@ -249,7 +249,7 @@ write(21,'(13a)') 'P_val ',char(9),'T_val ',char(9),'x_val ',char(9),'y_val ',ch
 	&char(9), 'absolute_deviation ', char(9),'relative_deviation_%'
 do i=1,nex
 	call dpfunc(acur,k,m,r,p(i)*pmax,t(i)*tmax,mm(i)*mmmax,ftest1)
-	write(21,'(6(e12.4,a),e12.4)') p(i)*pmax,char(9),t(i)*tmax,char(9),mm(i)*mmmax,char(9),x(i)*xmax,&
+	write(21,'(6(e12.6,a),e12.6)') p(i)*pmax,char(9),t(i)*tmax,char(9),mm(i)*mmmax,char(9),x(i)*xmax,&
 	&char(9),ftest1,char(9),x(i)*xmax-ftest1&
 	&,char(9),(x(i)*xmax-ftest1)/(x(i)*xmax)*100.0
 	rmsav=rmsav+(x(i)*xmax-ftest1)*(x(i)*xmax-ftest1)
